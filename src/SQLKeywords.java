@@ -52,7 +52,7 @@ public final class SQLKeywords {
             "ON",
             "LIKE"
     };
-    private static List<String> keywords = Arrays.asList(KEYWORDSARRAY);
+    private static List<String> keywords;
 
     public static Set<String> getKeywords(){
         return new HashSet<>(KEYWORDS);
@@ -63,6 +63,7 @@ public final class SQLKeywords {
     }
 
     private SQLKeywords()  {
+        keywords = new ArrayList<>();
         try {
             InputStream inputStream = new FileInputStream("Keywords.xml");
             BufferedReader buf = new BufferedReader(new InputStreamReader(inputStream));
@@ -91,7 +92,9 @@ public final class SQLKeywords {
                     System.out.println(nodes.item(i).getNodeValue());
                 }
             }
-            catch(UnsupportedOperationException e){}
+            catch(UnsupportedOperationException e){
+                addToKeywordList();
+            }
             KEYWORDS.addAll(keywords);
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
