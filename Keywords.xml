@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- List is public and can be updated -->
+<Keyword>
+    <value>SELECT</value>
+    <value>AS</value>
+    <value>WHERE</value>
+    <value>IN</value>
+    <value>BETWEEN</value>
+    <value>INSERT</value>
+    <value>INTO</value>
+    <value>DELETE</value>
+    <value>DROP</value>
+    <value>TABLE</value>
+    <value>OR</value>
+    <value>AND</value>
+    <value>GROUPING</value>
+    <value>GROUP</value>
+    <value>SET</value>
+    <value>UPDATE</value>
+    <value>TRUNCATE</value>
+    <value>CREATE</value>
+    <value>CUBE</value>
+    <value>VIEW</value>
+    <value>IS</value>
+    <value>NULL</value>
+    <value>CASE</value>
+    <value>WHEN</value>
+    <value>THEN</value>
+    <value>END</value>
+    <value>LIMIT</value>
+    <value>DISTINCT</value>
+    <value>TOP</value>
+    <value>JOIN</value>
+    <value>INNER</value>
+    <value>RIGHT</value>
+    <value>LEFT</value>
+    <value>NATURAL</value>
+    <value>BY</value>
+    <value>ORDER</value>
+    <value>HAVING</value>
+    <value>FROM</value>
+    <value>ON</value>
+    <value>LIKE</value>
+</Keyword>
